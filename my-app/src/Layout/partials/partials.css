@@ -1,0 +1,64 @@
+/* Navbar Styles */
+.navbar {
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Ensures space between logo and items */
+  align-items: center; /* Centers content vertically */
+}
+
+/* Logo Styles */
+.nav-logo > img {
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+/* Navbar Items Styles */
+.navbar-items {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+/* Contact Button Styles */
+.btn-contact {
+  padding: 8px 16px; /* Slightly smaller padding to fit in the navbar */
+  border-radius: 20px; /* Rounded corners */
+  background-color: #007BFF; /* Primary button color */
+  color: white; /* Text color */
+  font-size: 14px; /* Slightly smaller font size to fit the navbar */
+  font-weight: bold; /* Makes the text bold */
+  border: none; /* Removes default border */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+  margin-left: 20px; /* Adds space between the button and the other navbar items */
+}
+
+/* Hover and Active Effects for Contact Button */
+.btn-contact:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Increases shadow on hover */
+}
+
+.btn-contact:active {
+  background-color: #004494; /* Even darker shade when clicked */
+  transform: translateY(0); /* Removes lift on click */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Reduces shadow on click */
+}
+
+/* Navbar Links Styles */
+.navbar-items a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+  font-size: 14px;
+  margin-left: 20px; /* Add margin between links */
+}
+
+.navbar-items a:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
